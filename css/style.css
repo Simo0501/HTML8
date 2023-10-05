@@ -23,7 +23,8 @@
   font-size:  25px;
 }
 
-.header-column-2{
+.header-column-2,
+.menu-list{
   padding-top: 37px;
   color: gray;
   font-size: 25px;
@@ -39,9 +40,21 @@
   border-color: black;
   border-radius: 10px;
   background-color: black;
-
+}
+.menu-list{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 30px; 
   
 }
-
+.menu-list-item{
+  margin-right: 33%;
+  display: inline-block;
+}
+.menu-list-img{
+  display: inline-block;
+  margin-left: 3%;
+}
 
 
