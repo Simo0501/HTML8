@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 .container{
-  background-color:grey
-  border:2px;
   display: flex;
   flex-direction: column;
   width: 500px;
   height: 800px;
   margin-left: 40%;
+  background-color:#333344;
+  border: 2px;
 }
 .header{
   display: flex;
@@ -18,7 +18,24 @@
 }
 .header-column{
   padding-top: 25px;
+  color: aliceblue;
+  font-size:  25px;
 }
+
 .header-column-2{
-  padding-top: 30px;
+  padding-top: 37px;
+  color: gray;
+  font-size: 25px;
 }
+.list{
+  display: flex;
+  justify-content: space-around;
+  color: hsl(85, 43%, 50%);
+  padding: 80px;
+  
+}
+.list h2{
+  margin-bottom: 80px;
+}
+
+
