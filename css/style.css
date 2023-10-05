@@ -3,15 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-.containe{
-  background-color: blue;
+.container{
+  background-color:grey
   border:2px;
   display: flex;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 800px;
+  margin-left: 40%;
 }
 .header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.header-column{
+  padding-top: 25px;
+}
+.header-column-2{
+  padding-top: 30px;
 }
