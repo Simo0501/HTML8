@@ -5,6 +5,7 @@
 }
 .containe{
   background-color: blue;
+  border:2px;
   display: flex;
   flex-direction: column;
   width: 200px;
