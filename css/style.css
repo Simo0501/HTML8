@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 .containe{
+  background-color: blue;
   display: flex;
   flex-direction: column;
+  width: 200px;
+  height: 200px;
 }
 .header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
