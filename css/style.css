@@ -23,8 +23,7 @@
   font-size:  25px;
 }
 
-.header-column-2,
-.menu-list{
+.header-column-2{
   padding-top: 37px;
   color: gray;
   font-size: 25px;
@@ -43,18 +42,13 @@
 }
 .menu-list{
   display: flex;
-  justify-content:space-around;
-  align-items: center;
-  padding: 30px; 
-  
+  justify-content: space-around;
+  padding: 20px;
+  color: gray;
 }
-.menu-list-item{
-  margin-right: 33%;
-  display: inline-block;
-}
-.menu-list-img{
-  display: inline-block;
-  margin-left: 3%;
+.row-list{
+  display: flex;
+  justify-content: space-around;
 }
 
 
