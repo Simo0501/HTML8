@@ -92,5 +92,36 @@
   margin-left:9%;
   padding-top:5px; 
 }
-
+.more-action{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+  color: gray;
+}
+.more-action h2{
+  margin-right: 20%;
+}
+.fa-angle-down{
+  margin-top: 2%;
+}
+.action{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40%;
+}
+.action-name{
+  display: flex;
+  flex-direction: column;
+  margin-left:5%;
+}
+.angle{
+  display: flex;
+  flex-direction: column;
+  margin-right: 37%;
+  margin-top: 2%;
+}
+.gear{
+  margin-right:20%;
+  margin-top: 5%;
+}
 
