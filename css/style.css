@@ -40,15 +40,32 @@
   border-radius: 10px;
   background-color: black;
 }
-.menu-list{
+.row-first{
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding-top: 35px;
   color: gray;
 }
-.row-list{
+.row-first h2{
+  margin-right: 33%;
+}
+.fa-qrcode{
+  margin-left: 10%;
+  padding-top:5px;
+}
+.row-second{
   display: flex;
   justify-content: space-around;
+  padding-top: 35px;
+  color: gray;
 }
+.row-second h2{
+  margin-right:33%;
+}
+.fa-bars{
+  margin-left:9%;
+  padding-top:5px;
+}
+
 
 
