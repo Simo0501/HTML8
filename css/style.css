@@ -62,10 +62,19 @@
 .row-second h2{
   margin-right:33%;
 }
-.fa-bars{
+.fa-list{
   margin-left:9%;
   padding-top:5px;
 }
-
+.row-third{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+  color: gray;
+}
+.fa-clone{
+  margin-left:9%;
+  padding-top:5px;
+}
 
 
